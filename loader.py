@@ -28,7 +28,7 @@ CHAR_DICT = len(letters) + 1
 
 chars = letters
 wordChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÂÊÔàáâãèéêìíòóôõùúýăĐđĩũƠơưạảấầẩậắằẵặẻẽếềểễệỉịọỏốồổỗộớờởỡợụủỨứừửữựỳỵỷỹ"
-corpus = ' \n '.join(json.load(open('labels.json')).values())
+corpus = ' \n '.join(json.load(open('labels/labels.json')).values())
 word_beam_search_module = tf.load_op_library('lib/TFWordBeamSearch.so')
 mat=tf.placeholder(tf.float32)
 
