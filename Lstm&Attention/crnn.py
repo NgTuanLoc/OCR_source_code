@@ -105,8 +105,8 @@ def train(datapath, labelpath, epochs, batch_size, lr, finetune=False, name='mod
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--train", default='../data/ocr/preprocess/train/', type=str)
-    parser.add_argument("--label", default='../data/ocr/labels.json', type=str)
+    parser.add_argument("--train", default='data/', type=str)
+    parser.add_argument("--label", default='labels/labels.json', type=str)
 
     parser.add_argument("--epochs", default=100, type=int)
     parser.add_argument('--batch_size', default=50, type=int)

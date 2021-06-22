@@ -4,3 +4,4 @@ __pycache__
 .ipynb_checkpoints
 InkData_line_processed
 model
+.vscode
