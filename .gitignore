@@ -5,3 +5,4 @@ __pycache__
 InkData_line_processed
 model
 .vscode
+weights
